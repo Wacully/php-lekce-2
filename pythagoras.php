@@ -10,3 +10,27 @@ $b ; ?> cm je <?php echo
 $obdelnikobsah ; ?> cm2
 
 
+<?php
+$strana = 6;
+$uhel = 60;
+$vyska = 5.1961524227066; // past vedle pasti
+$trojuhelnikobsah = ($strana * $vyska) / 2;
+?>
+
+<?php
+ deg2rad ($uhel); // taky katastrofa
+?>
+</br>
+</br>
+Rovnostranny trojuhelnik o strane delky <?php
+echo $strana;?> cm a uhlu <?php echo $uhel; ?> stupnu je <?php echo round(15.58845726812 ) // 16 $trojuhelnikobsah;
+?> cm2
+</br>
+
+
+
+
+
+
+
+
