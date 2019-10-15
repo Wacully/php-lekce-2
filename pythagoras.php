@@ -33,4 +33,3 @@ echo $strana;?> cm a uhlu <?php echo $uhel; ?> stupnu je <?php echo round(15.588
 
 
 
-
