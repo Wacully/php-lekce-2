@@ -28,6 +28,14 @@ echo $strana;?> cm a uhlu <?php echo $uhel; ?> stupnu je <?php echo round(15.588
 </br>
 
 
+// tak takhle to melo byt
+<?php
+$strana = 6;
+$uhel = 60;
+$obsahTrojuhelnika = round($strana * $strana * sin(deg2rad($uhel)) / 2);
+?>
+
+
 
 
 
